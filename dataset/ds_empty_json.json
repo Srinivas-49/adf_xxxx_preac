@@ -1,0 +1,23 @@
+{
+	"name": "ds_empty_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_srinu",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "empty.json",
+				"folderPath": "metadata",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {
+			"type": "object"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

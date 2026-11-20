@@ -1,0 +1,13 @@
+{
+	"name": "ds_sql_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_srinu",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

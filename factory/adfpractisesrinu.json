@@ -1,0 +1,16 @@
+{
+	"name": "adfpractisesrinu",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9200b136-a0a0-487d-b998-274cbf0db693",
+		"tenantId": "4cd349f4-e672-46d8-89a6-cc339d6ea7ca"
+	}
+}
